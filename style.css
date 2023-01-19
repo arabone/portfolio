@@ -1,0 +1,79 @@
+html {
+  background-color: whitesmoke;
+}
+
+body {
+  font-family: 'Crete Round', serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  width: 375px;
+  background-color: #1c1a19;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  height: 48px;
+  justify-content: space-between;
+  background-color: #3c3a39;
+}
+
+#logo-name {
+  padding: 10px 12px;
+  margin: 2px 0 2px 12px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#logo-icon {
+  color: aliceblue;
+  margin: 4px 24px 4px 0;
+  padding: 8px;
+}
+
+.content-container {
+  margin: 120px 24px;
+}
+
+#greet-name {
+  font-family: 'Crete Round', serif;
+  font-size: 56px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+#greet-work {
+  font-size: 24px;
+  color: #fff5e1;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#description {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.social-illustration {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#socials,
+ul,
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 200px;
+  align-items: flex-start;
+}
